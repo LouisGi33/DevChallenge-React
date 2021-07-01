@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #3F3F3F;
+  position: absolute;
+  
+}
+
+header img {
+  max-width: 100px;
+  position: absolute;
+  display: flex;
+  padding-top: 8px;
+  margin-left: 10px;
+}
+
+header h1 {
+  color: #fff;
+  margin-top: 0;
+  padding-top: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.accueil {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* background-position: center;
+  background-size: cover; */
+  background: #333 url(ressources/jason-et-les-argonautes.jpg) center / cover no-repeat;
+}
+
+.animTxt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  color: #fff;
+  
+}
+
+.add {
+  margin-bottom: 25px;
+}
+
+.add input {
+  height: 25px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #ffd700;
+  transition: 0.7s;
+}
+
+hr {
+  width: 25%;
+}
+
+.show {
+  width:100%;
+  
+}
+
+.showArgos {
+  width: 80%;
+  background-color: #fff;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.showArgo {
+  padding: 1rem;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #ffd700, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+.sbtn {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.upbtn {
+  padding: 15px;
+  background: url(ressources/writing.png) center / 80% no-repeat;
+}
+
+.delbtn {
+  padding: 15px;
+  background: url(ressources/trash.png) center / 80% no-repeat;
+}
+
+ .upbtn:hover {
+  background-color: #59bfff;
+  transition: 0.7s;
+ }
+
+ .delbtn:hover {
+  background-color: #cd0000;
+  transition: 0.7s;
+ }
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+  background: #f76c6c;
+  padding: 0.25em 0;
+}
